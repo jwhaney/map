@@ -7,4 +7,4 @@ a simple leaflet map of the austin area to embed in my personal website.
 - openstreetmap base map
 - pin marking central austin with popup open by default
 
-![map image](images/map.png)
+![map image](images/map.jpg)
