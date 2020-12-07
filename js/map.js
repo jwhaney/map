@@ -20,6 +20,6 @@ L.easyButton('fa-globe fa-lg', function(){
 //load centexgis marker location and popup info
 var marker = L.marker([30.27384, -97.74058]);
 
-var markerContent = "<i>I live here in</i><br>" + "<strong>Austin, TX</strong><br><i>Hit me up on Github @jwhaney</i>";
+var markerContent = "I live here in <a href='https://en.wikipedia.org/wiki/Austin,_Texas' target='_blank'>Austin, TX</a>.<br>You can contact me on Github @jwhaney";
 
 marker.addTo(map).bindPopup(markerContent, {autoClose:false}).openPopup();
